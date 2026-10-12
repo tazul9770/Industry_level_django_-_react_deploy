@@ -1,0 +1,28 @@
+# ===== Python / Django =====
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# ===== Secrets (shobchey important) =====
+.env
+.env.*
+!.env.example
+
+# ===== Editor / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
